@@ -1,0 +1,176 @@
+/* Professor importou mais variações da mesma fonte */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    /* Professor colocou fontes adicionais, caso não carregue */
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+h1, h2 {
+    color: #111;
+}
+
+/* Professou usou a classe que foi definida */
+
+/* Como eu fiz
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid #fe8a25;
+}
+*/
+
+.top-bar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid #fd8a24;
+
+    /* Aumentei a fonte e a grossura com a tag strong, alternativa abaixo */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#container {
+    max-width: 888px;
+    margin: auto;
+
+    padding: 30px;
+}
+
+.header
+
+/* Para não alterar direto na tag, o Professor criou uma classe */
+
+/* Como eu fiz
+h1 {
+    color: #111;
+    font-size: 1.5rem;
+}
+*/
+
+.headline {
+    font-size: 56px;
+    line-height: 64px;
+}
+
+#subtitle {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Como eu fiz
+p {
+    color: #555;
+    font-size: 0.75rem;
+}
+
+#autor-data {
+    margin: 0;
+    padding: 0;
+}
+
+#autor {
+    font-size: 0.75rem;
+    color: #111;
+}
+
+#data {
+    font-size: 0.5rem;
+}
+*/
+
+.author {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+/* Como eu fiz
+img {
+    width: 30px;
+    margin-right: 15px;
+}
+*/
+
+#redes-sociais {
+    margin-top: 10px;
+}
+
+.icons {
+    width: 20px;
+    padding: 10px 10px 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: bold;
+}
+
+/* Como eu fiz
+main {
+    width: 300px;
+    text-align: justify;
+    margin: auto;
+}
+*/
+
+.content {
+    margin: auto;
+
+    max-width: 648px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* Criei uma classe, mas o professor mudou direto na tag */
+
+/*
+.link {
+    color: #fd8a24;
+    text-decoration: none;
+}
+*/
+
+.cta {
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+/*
+#moedas {
+    width: 300px;
+    margin: 0;
+}
+*/
+
+figure {
+    margin: 0;
+    padding: 40px 0;
+    font-size: 12px;
+}
+
+figure > img {
+    width: 100%;
+}
+
+/*
+figcaption {
+    font-size: 0.5rem;
+}
+*/
+
+footer {
+    background-color: #333;
+    height: 100px;
+}
